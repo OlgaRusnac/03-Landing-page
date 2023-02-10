@@ -37,6 +37,7 @@ a {
   text-decoration: none;
 }
 
+
 @media (max-width: 800px) {
   .cards {
     grid-template-columns: 1fr;
@@ -66,4 +67,25 @@ a {
     width: 800px;
   }
 }
+
+
+/* @media (min-width: 200px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (min-width: 600px) {
+
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+} */
 
